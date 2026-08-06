@@ -1,0 +1,17 @@
+# threat_model.yaml
+#
+# Empty at v0-clean by design: this file is derived LIVE during the
+# session (Claude Code, Demo 1 step 1 / Demo 3), not shipped pre-filled,
+# so the "blind prediction, then reveal" exercise is genuine.
+#
+# Schema for each boundary entry:
+#
+# boundaries:
+#   - id: B1-example
+#     principal: end_user | agent | deployment_identity | peer_service
+#     asset: <what crosses this boundary>
+#     stride: [spoofing, tampering, repudiation, information_disclosure,
+#              denial_of_service, elevation_of_privilege]
+#     source_ref: <file:line>
+
+boundaries: []

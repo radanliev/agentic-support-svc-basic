@@ -1,0 +1,14 @@
+# Baseline permission reference for agentic-support-svc.
+# This file documents what the deployed service SHOULD be able to do.
+# deploy/service-account.yaml documents what it CAN currently do.
+# The two are compared directly in Week 1 (over-broad role) and again in
+# the supply-chain-assurance demo.
+
+service_account: agentic-support-svc
+intended_role: read-only
+intended_scopes:
+  - kb:read
+notes: >
+  The service reads ticket/knowledge-base records to answer support
+  queries. It does not need write access to any data store to do this.
+  Any role broader than read-only on kb:* is an unapproved expansion.

@@ -1,0 +1,14 @@
+{
+  "TICKET-100": {
+    "owner": "customer_a",
+    "content": "Order #A1123 shipped 2026-07-30, arriving 2026-08-05."
+  },
+  "TICKET-101": {
+    "owner": "customer_b",
+    "content": "Refund #R552 processed 2026-07-28 to the original payment method."
+  },
+  "TICKET-102": {
+    "owner": "customer_a",
+    "content": "Password reset link sent to the email on file for customer_a."
+  }
+}

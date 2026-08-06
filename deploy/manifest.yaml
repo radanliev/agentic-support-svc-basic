@@ -1,0 +1,6 @@
+service: agentic-support-svc
+version: 0.1.0
+model_endpoint: local-mock://model-config.yaml
+entrypoint: app.agent
+service_account_ref: deploy/service-account.yaml
+aibom_ref: aibom.json

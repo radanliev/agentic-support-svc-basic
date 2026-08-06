@@ -1,0 +1,33 @@
+{
+  "generated_for_tag": "v0-clean",
+  "components": [
+    {
+      "component_type": "package",
+      "name": "PyYAML",
+      "version": "6.0.2",
+      "source": "pypi",
+      "approved_by": "platform-team"
+    },
+    {
+      "component_type": "package",
+      "name": "pytest",
+      "version": "8.3.3",
+      "source": "pypi",
+      "approved_by": "platform-team"
+    },
+    {
+      "component_type": "model",
+      "name": "local-mock-model",
+      "version": "n/a",
+      "source": "local-mock://model-config.yaml",
+      "approved_by": "platform-team"
+    },
+    {
+      "component_type": "identity",
+      "name": "agentic-support-svc",
+      "version": "n/a",
+      "source": "deploy/service-account.yaml",
+      "approved_by": "platform-team"
+    }
+  ]
+}

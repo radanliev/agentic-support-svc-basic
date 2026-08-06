@@ -1,0 +1,10 @@
+# Principal -> allowed-capability map.
+# Used from Week 3 (memory poisoning / agent identity) onward.
+# Included from Week 1 so the repository layout is complete and stable
+# across the whole course.
+
+agent-support-1:
+  allowed_principals: [customer_a, customer_b]
+
+agent-billing-1:
+  allowed_principals: [finance_team]

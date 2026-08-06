@@ -1,0 +1,17 @@
+# Invariant catalogue.
+#
+# This file is meant to be built up live during Demo 3 (Model-Driven
+# Security). INV-1 is pre-populated here because it is also the property
+# Week 1's test suite enforces, and the repository needs to ship with a
+# working, passing test from the start.
+#
+# During the Week 1 session: derive threat_model.yaml and your own
+# candidate invariants BLIND (before comparing to this file), then check
+# your source-linked prediction against INV-1 below.
+
+- id: INV-1
+  statement: >
+    kb_retrieve must not return rows outside the requesting principal's
+    ticket scope.
+  enforcement_point: app/tools/kb_retrieve.py:validate_scope()
+  test_ref: tests/test_kb_retrieve.py::test_scope_containment

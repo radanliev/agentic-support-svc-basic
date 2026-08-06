@@ -1,0 +1,9 @@
+# Placeholder for the local, non-routable mock model endpoint used by
+# later demos (prompt injection, memory poisoning). Not called by Week 1,
+# which exercises app/tools/kb_retrieve.py directly.
+endpoint: local-mock
+provider: none
+notes: >
+  Demos that need an actual model call (Week 2 onward) point their tool
+  surface (Claude Code, GitHub Copilot, Cursor, etc.) directly at this
+  repository rather than at a live API from this file.

@@ -1,0 +1,13 @@
+# Which tools the agent may call, and which require human approval before
+# a consequential action. Used from Week 2 onward; included from Week 1 so
+# the layout is stable across the whole course.
+
+ticket_lookup:
+  approval_required: false
+
+kb_retrieve:
+  approval_required: false
+
+email_draft:
+  approval_required: true
+  send: blocked_without_approval
